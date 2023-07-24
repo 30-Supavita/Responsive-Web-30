@@ -1,0 +1,34 @@
+p.nasur {
+    background-color: #1b1bff;
+    color: #fff;
+    font-size: 47px;
+    padding: 24px;
+}
+h3, h5, p.nname, p.num {
+    font-family: 'Itim', cursive;
+    color: #a75eff;
+}
+h1, p, p.nname {
+    font-family: 'Itim', cursive;
+}
+@media screen and (max-width:699px) {
+    p.nasur {
+    background-color: #006100;
+    font-size: 17px;
+        }
+    p.nname, h3, h5, p.num {
+    color: #1b1bff;
+        }
+    h3, h5, p, p.nname {
+    font-family: 'Anuphan', sans-serif; 
+        }
+}
+@media screen and (min-width:780px) and (max-width:999px) {
+    p.nasur {
+    background-color: #bb00cc;
+    font-size: 17px;
+        }
+    h3, h5, p.nname, p.num {
+    color: #ff6607;
+        }
+}
