@@ -17,6 +17,7 @@ h1, p, p.nname {
     font-size: 17px;
         }
     p.nname, h3, h5, p.num {
+    font-family: 'Anuphan', sans-serif; 
     color: #1b1bff;
         }
     h3, h5, p, p.nname {
